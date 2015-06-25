@@ -1,38 +1,99 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Lato:100,300,400);
 
 .navbar-default{
-	background-color: #fff;
-	border-color: #fff;
+background-color: rgb(109, 168, 229);
+border-color: #9BBBD5;
+padding-bottom: 20px;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 .navbar-brand h1{
-	margin-top: 0;
-	font-family: 'Lato', Helvetica;
-	color: #447fc8;
-	font-weight: 800;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+margin-top: 0;
+font-family: 'Lato', Helvetica;
+color: #fff;
+font-weight: 800;
+letter-spacing: 3px;
+text-transform: uppercase;
+text-shadow: 1px 1px;
+}
+#navRight{
+display: inline-block;
+font-size: 1.2em;
+margin-left: 20px;
+}
+.navbar-default .navbar-nav>li>a{
+color: #fff;
+font-family: 'Lato', Helvetica;
+letter-spacing: 1px;
+font-weight: 500;
+font-size: 1.25em;
+}
+#navLogin{
+margin-top: 10px;
+}
+.navbar-default .navbar-nav>li{
+color: #fff;
+font-family: 'Lato', Helvetica;
+letter-spacing: 1px;
+font-weight: 500;
+font-size: 1em;
+}
+.navbar-default .navbar-nav>li#logout>a{
+color: #fff;
+font-family: 'Lato', Helvetica;
+letter-spacing: 1px;
+font-weight: 500;
+font-size: 1em;
+}
+ul.nav.navbar-nav.navbar-right {
 }
 .navbar-default .navbar-nav>.active>a{
-	color: #555;
-	background-color: #D6EBF5;
+color: #fff;
+background-color: rgb(109, 168, 229);
+
+}
+.navbar-default .navbar-nav>.active>a:hover{
+color: #333;
+background-color: rgb(109, 168, 229);
 }
 .navbar-right li a{
-	padding-top: 0;
+padding-top: 0;
 }
 #container{
-	margin-top: 45px;
+margin-top: 45px;
 }
 .table {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  }
- .table-striped>tbody>tr:nth-of-type(odd) {
-  background-color: #D6EBF5;
+width: 95%;
+margin-left: auto;
+margin-right: auto;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+background-color: #D6EBF5;
 }
 footer.white {
-	padding-top: 20px;
-	height: 50px;
-	background: white;
-	text-align: center;
+padding-top: 20px;
+height: 50px;
+background: white;
+text-align: center;
 }
+@media (max-width: 1031px) {
+	#navRight{
+		display: block;
+	}
+}
+@media (max-width: 495px) {
+#navLogin{
+	float:right;
+}
+.navbar-default .navbar-nav>li#logout>a {
+padding-left: 0px;
+}
+.navbar-nav{
+	margin: 0;
+}
+#navRight{
+	float: right;
+	margin-top: 10px;
+	margin-left: 0;
+  }
+}
+
