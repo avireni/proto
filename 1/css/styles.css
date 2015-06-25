@@ -283,8 +283,49 @@ footer.navbar-fixed-bottom {
   #registerForm .btn {
   display: block;
   margin: 0 auto;
+  margin-top: 15px;
   }
 }
+@media (max-width: 767px) {
+ 
+  .navbar {
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .navbar .navbar-inner {
+    height: auto;
+  }
+
+  .navbar .nav > li > a:hover {
+    color: white;
+  }
+
+  #login-wrapper {
+    position: relative;
+    top: 80px;
+    margin-top: 25px;
+  }
+  #register-wrapper{
+    margin-top: 127px;
+  }
+  #registerForm{
+    width: auto;
+  }
+  #registerForm input {
+    display: block;
+    margin: 0 auto;
+  }
+  #registerForm .checkbox.inline input {
+  margin-right: 10px;
+  margin-left: 51px;
+  margin-top: 5px;
+}
+  #registerForm .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  }}
 @media (max-width: 495px) {
   #login-wrapper {
     width: auto;
@@ -292,7 +333,8 @@ footer.navbar-fixed-bottom {
     margin-left: 0;
     margin-right: 0;
     left: 0;
-}
+  }
+
 #register-wrapper {
   margin-top:   127px;
 }
@@ -318,4 +360,5 @@ margin-top: 5px;
 #registerForm .btn {
   display: block;
   margin: 0 auto;
+  margin-top: 15px;
 }}
