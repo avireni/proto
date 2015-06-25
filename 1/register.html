@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Virtua - User Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+         <div class="container">
+          <h1>VIRTUA</h1>
+          <h5>A Virtual Pharmacy Network</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+<div class="row">
+        	<div class="col-sm-6 col-md-5 col-md-offset-3">
+        		<div id="register-wrapper">
+        		    <form id="register-form" class="form">
+        		        <legend>Register to <span class="blue">Virtua</span></legend>
+        		        <div class="body">
+        		        	<div class="control-group control-inline">
+        		        		<label for="firstname">First name</label>
+        		        		<input class="firstname input-medium" id="firstname"  type="text">
+        		        	</div>
+        		        	<div class="control-group control-inline">
+        		        		<label for="lastname">Last name</label>
+        		        		<input name="lastname input-medium" id="lastname"type="text">
+        		        	</div>
+        		        	<label>Username</label>
+        		        	<input class="input-huge" type="text">
+        		        	<label>E-mail</label>
+        		        	<input class="input-huge" type="text">
+        		        	<label>Password</label>
+        		        	<input class="input-huge" type="password">
+                            <label>Confirm Password</label>
+                            <input class="input-huge" type="password">
+        		        </div>
+        		        <div class="footer">
+        		             <label class="checkbox inline">
+        		                <input type="checkbox" id="inlineCheckbox1" value="option1"> I agree to the terms and conditions.
+        		            </label> 
+        		            <button type="submit" class="btn btn-success">Register</button>
+                            <div id="loginLink"><a href="userLogin.php">Already a user? Login here</a></div>
+        		        </div>
+        		    </form>
+        		</div>
+        	</div>
+        </div>
+    </div>
+    <footer class="white navbar-fixed-bottom">
+      &copy; <em> Copyright Virtua 2015. All rights reserved.
+    </footer>
+</body></html>
