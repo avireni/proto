@@ -40,10 +40,6 @@ $(document).ready(function(){
 			$("#message").html("Password and confirm password should be the same");
 			return false;
 		}
-		else if(!($(inlineCheckbox1).is(':checked'))){
-			$("#message").html("Please agree to the terms and conditions");
-			return false;
-		}
 		// ajax call
 		$.ajax ({
 			type: 'POST',
