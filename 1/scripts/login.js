@@ -4,15 +4,15 @@ $(document).ready(function(){
 		event.preventDefault();
 
 		// validations here
-		if ($("#username").val()=== "") {
-                $("#message").html("Please enter the User Name");
-                return false;
-                }
+		// if ($("#username").val()=== "") {
+  //               $("#message").html("Please enter the User Name");
+  //               return false;
+  //               }
         
-                if ($("#password").val()=== "") {
-                        $("#message").html("Please enter the Password");
-                        return false;
-                }
+  //               if ($("#password").val()=== "") {
+  //                       $("#message").html("Please enter the Password");
+  //                       return false;
+  //               }
         
 		// ajax call
 		$.ajax ({
