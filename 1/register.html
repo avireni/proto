@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <script src="scripts/registration.js"></script>
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -18,45 +19,46 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
          <div class="container">
-          <h1>VIRTUA</h1>
+          <a href="index.html"><h1>VIRTUA</h1></a>
           <h5>A Virtual Pharmacy Network</h5>
         </div>
       </div>
     </div>
     <div class="container">
 <div class="row">
-        	<div class="col-sm-6 col-md-5 col-md-offset-3">
-        		<div id="register-wrapper">
-        		    <form id="register-form" class="form">
-        		        <legend>Register to <span class="blue">Virtua</span></legend>
-        		        <div class="body">
-        		        	<div class="control-group control-inline">
-        		        		<label for="firstname">First name</label>
-        		        		<input class="firstname input-medium" id="firstname"  type="text">
-        		        	</div>
-        		        	<div class="control-group control-inline">
-        		        		<label for="lastname">Last name</label>
-        		        		<input name="lastname input-medium" id="lastname"type="text">
-        		        	</div>
-        		        	<label>Username</label>
-        		        	<input class="input-huge" type="text">
-        		        	<label>E-mail</label>
-        		        	<input class="input-huge" type="text">
-        		        	<label>Password</label>
-        		        	<input class="input-huge" type="password">
+            <div class="col-sm-6 col-md-5 col-md-offset-3">
+                <div id="register-wrapper">
+                    <form id="registerForm" class="form">
+                        <legend>Register to <span class="blue">Virtua</span></legend>
+                        <div class="body">
+                            <div id="message"></div>
+                            <div class="control-group control-inline">
+                                <label for="firstname">First name</label>
+                                <input class="input-medium" id="firstname"  type="text">
+                            </div>
+                            <div class="control-group control-inline">
+                                <label for="lastname">Last name</label>
+                                <input class="input-medium" id="lastname"type="text">
+                            </div>
+                            <label>Username</label>
+                            <input class="input-huge" type="text" id="username">
+                            <label>E-mail</label>
+                            <input class="input-huge" type="email" id="email">
+                            <label>Password</label>
+                            <input class="input-huge" type="password" id="password" >
                             <label>Confirm Password</label>
-                            <input class="input-huge" type="password">
-        		        </div>
-        		        <div class="footer">
-        		             <label class="checkbox inline">
-        		                <input type="checkbox" id="inlineCheckbox1" value="option1"> I agree to the terms and conditions.
-        		            </label> 
-        		            <button type="submit" class="btn btn-success">Register</button>
-                            <div id="loginLink"><a href="userLogin.php">Already a user? Login here</a></div>
-        		        </div>
-        		    </form>
-        		</div>
-        	</div>
+                            <input class="input-huge" type="password" id="confrmpassword">
+                        </div>
+                        <div class="footer">
+                             <label class="checkbox inline">
+                                <input type="checkbox" id="inlineCheckbox1" value="option1"> I agree to the terms and conditions.
+                            </label> 
+                            <button type="submit" class="btn btn-success" id="registerBtn">Register</button>
+                            <div id="loginLink"><a href="index.html">Already a user? Login here</a></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
     <footer class="white navbar-fixed-bottom">
