@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$("#userLogin").click(function(event) {
+		window.location.href = "home.html";
 		event.preventDefault();
-		console.log("inside submit");
 
 		// validations here
 		if ($("#username").val()=== "") {
