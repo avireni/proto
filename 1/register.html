@@ -1,57 +1,59 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Virtua - Register user</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="scripts/registration.js"></script>
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
-<body>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a href="index.html"><h1>VIRTUA</h1></a>
-                <h5>Virtua IV Log</h5>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-md-5 col-md-offset-3">
-                <div id="register-wrapper">
-                    <form id="registerForm" class="form">
-                        <legend>Register to <span class="blue">Virtua</span></legend>
-                        <div class="body">
-                            <div id="message"></div>
-                            <label for="firstname">First name</label>
-                            <input class="input-huge" id="firstname"  type="text">
-                            <label for="lastname">Last name</label>
-                            <input class="input-huge" id="lastname"type="text">
-                            <label>Username</label>
-                            <input class="input-huge" type="text" id="username">
-                            <label>E-mail</label>
-                            <input class="input-huge" type="email" id="email">
-                            <label>Password</label>
-                            <input class="input-huge" type="password" id="password" >
-                            <label>Confirm Password</label>
-                            <input class="input-huge" type="password" id="confrmpassword">
-                        </div>
-                        <div class="footer">
-                            <button type="submit" class="btn btn-success" id="registerBtn">Register</button>
-                            <div id="loginLink"><a href="index.html">Already a user? Login here</a></div>
-                        </div>
-                    </form>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Virtua - Register user</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="scripts/registration.js"></script>
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="index.html"><h1>VIRTUA</h1></a>
+                    <h5>Virtua IV Log</h5>
                 </div>
             </div>
         </div>
-    </div>
-    <footer class="white navbar-fixed-bottom">
-        &copy; <em> Copyright Virtua 2015. All rights reserved.
-    </footer>
-</body></html>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+                    <div id="register-wrapper">
+                        <form id="registerForm" class="form">
+                            <legend>Register to <span class="blue">Virtua</span></legend>
+                            <div class="body">
+                                <div id="message"></div>
+                                <label for="firstname">First name</label>
+                                <input class="input-huge" id="firstname"  type="text">
+                                <label for="lastname">Last name</label>
+                                <input class="input-huge" id="lastname"type="text">
+                                <label>Username</label>
+                                <input class="input-huge" type="text" id="username">
+                                <label>E-mail</label>
+                                <input class="input-huge" type="email" id="email">
+                                <label>Password</label>
+                                <input class="input-huge" type="password" id="password" >
+                                <label>Confirm Password</label>
+                                <input class="input-huge" type="password" id="confrmpassword">
+                            </div>
+                            <div class="footer">
+                                <button type="submit" class="btn btn-success" id="registerBtn">Register</button>
+                                <div id="loginLink"><a href="index.html">Already a user? Login here</a></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="white navbar-fixed-bottom">
+            &copy; <em> Copyright Virtua 2015. All rights reserved.
+        </footer>
+    </body></html>
