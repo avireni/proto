@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Lato:100,300,400);
 
+body{
+	padding-top: 76px;
+}
 .navbar-default{
 background-color: rgb(109, 168, 229);
 border-color: #9BBBD5;
@@ -47,13 +50,15 @@ font-size: 1em;
 ul.nav.navbar-nav.navbar-right {
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-color: #fff;
 background-color: rgb(109, 168, 229);
+border: 1px solid #fff;
 
 }
 .navbar-default .navbar-nav>.active>a:hover{
 color: #333;
 background-color: rgb(109, 168, 229);
+border: 1px solid #fff;
+
 }
 .navbar-right li a{
 padding-top: 0;
@@ -81,6 +86,9 @@ text-align: center;
 	}
 }
 @media (max-width: 495px) {
+	body{
+		padding-top: 216px;
+	}
 	.navbar-default{
 		margin-bottom: 0;
 	}

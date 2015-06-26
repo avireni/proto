@@ -8,6 +8,7 @@ body {
   background-size: cover;
   font-family: 'Lato', Helvetica, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
+  padding-top: 100px;
 }
 .blue {
   color: #447fc8;
