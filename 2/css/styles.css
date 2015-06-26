@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Lato:100,300,400);
+body{
+  font-family: 'Lato', Helvetica;
+    fffpadding-top: 97px;
+}
+.navbar-inverse {
+  background-color: #336699;
+  border-color: #336699;
+  padding: 10px 0;
+  -webkit-box-shadow:  0 8px 5px -7px rgb(45, 68, 92);
+  -moz-box-shadow:  0 8px 5px -7px rgb(45, 68, 92);
+  box-shadow:  0 8px 5px -7px rgb(45, 68, 92);
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: #336699;
+}
+.navbar-brand{
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 30px;
+  line-height: 20px;
+  letter-spacing: 6px;
+  margin-right: 37px;
+}
+.navbar-inverse .navbar-brand {
+  color: #F8F8F8;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #F8F8F8;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #F8F8F8;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #F8F8F8;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #336699;
+}
+#message{
+  color: #f00;
+}
+#login-wrapper {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #D6E0EA;
+}
+.login-form legend {
+  padding: 25px;
+  letter-spacing: 2px;
+  background-color: #336699;
+  color: #F8F8F8;
+}
+.login-form .body {
+  padding-bottom: 30px;
+}
+.login-form .btnWrapper {
+ padding:10px 0;
+ background-color: #336699;
+}
+.login-form .btnWrapper .btn {
+  padding: 7px 29px;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  color: #000;
+}
+.login-form label {
+  display: block;
+  font-size: 20px;
+  color: #000;
+  font-weight: 300;
+}
+input[type=text], input[type=password], input[type=email]{
+  padding: 4px 2px 4px 4px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(210, 206, 206);
+  border-radius: 5px;
+}
+#registerLink a{
+  color: #F8F8F8;
+}
+footer{
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
+}
+@media (max-width: 495px) {
+  #login-wrapper {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+  }
+  }
