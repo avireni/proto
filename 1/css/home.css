@@ -99,6 +99,9 @@ footer.white {
 	.navbar-default{
 		margin-bottom: 0;
 	}
+	#navLogin > ul > li:nth-child(1){
+        padding-left: 0;
+        }
 	.navbar-brand{
 		padding: 5px;
 	}
