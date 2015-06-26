@@ -92,11 +92,11 @@ footer{
   background-color: #fff;
 }
 @media (max-width: 495px) {
-  #login-wrapper {
+  #login-wrapper, #register-wrapper {
     width: auto;
     height: auto;
     margin-left: 0;
     margin-right: 0;
     left: 0;
   }
-  }
+}
