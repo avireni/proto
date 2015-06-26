@@ -1,0 +1,87 @@
+<?php
+    session_start();
+    session_unset();
+    session_destroy();
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta charset="utf-8">
+            <title>Virtua - Register user</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/styles.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <script src="scripts/registration.js"></script>
+            <!--[if lt IE 9]>
+              <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+    </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">VIRTUA</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3 col-md-7 col-md-offset-3">
+    <div id="register-wrapper">
+      <form role="form" class="form register-form">
+                <legend>User Registration Form</legend>
+                <div class="body">
+                    <div id="message"></div>
+        <div class="form-group">
+          <label for="firstname">
+            Firstname
+          </label>
+          <input type="text" id="firstname">
+        </div>
+        <div class="form-group">
+          <label for="lastname">
+            Lastname
+          </label>
+          <input type="text" id="lastname">
+        </div>
+        <div class="form-group">
+          <label for="email">
+            Email
+          </label>
+          <input type="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="username">
+            Username
+          </label>
+          <input type="text" id="username">
+        </div>
+        <div class="form-group">
+          <label for="password">
+            Password
+          </label>
+          <input type="password" id="password">
+        </div>
+        <div class="form-group">
+          <label for="confirmpassword">
+            Confirm Password
+          </label>
+          <input type="password" id="confirmpassword">
+        </div>
+        </div>
+        <div class="btnWrapper">                            
+                    <button type="submit" class="btn" id="registerBtn">Register</button>
+                    <div id="loginLink"><a href="index.html">Already a User? Login here</a></div>
+      </div>
+      </form>
+    </div>
+  </div>
+  </div>
+</div>
+    <footer>
+      &copy; <em>Virtua 2015. All rights reserved.
+    </footer>
+</body></html>

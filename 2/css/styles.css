@@ -35,35 +35,47 @@ body{
 #message{
   color: #f00;
 }
-#login-wrapper {
+#login-wrapper, #register-wrapper {
   text-align: center;
   margin-top: 30px;
   background-color: #D6E0EA;
 }
-.login-form legend {
+
+.login-form legend, .register-form legend {
   padding: 25px;
   letter-spacing: 2px;
   background-color: #336699;
   color: #F8F8F8;
 }
-.login-form .body {
+.login-form .body, .register-form .body{
   padding-bottom: 30px;
 }
-.login-form .btnWrapper {
+.login-form .btnWrapper, .register-form .btnWrapper{
  padding:10px 0;
  background-color: #336699;
 }
-.login-form .btnWrapper .btn {
+.login-form .btnWrapper .btn, .register-form .btnWrapper .btn{
   padding: 7px 29px;
   margin-bottom: 5px;
   letter-spacing: 2px;
   color: #000;
 }
-.login-form label {
+.login-form label{
   display: block;
   font-size: 20px;
   color: #000;
   font-weight: 300;
+}
+.register-form label {
+  width: 134px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+
+}
+.register-form .form-group{
+  margin-bottom: 4px;
 }
 input[type=text], input[type=password], input[type=email]{
   padding: 4px 2px 4px 4px;
@@ -71,7 +83,7 @@ input[type=text], input[type=password], input[type=email]{
   border: 1px solid rgb(210, 206, 206);
   border-radius: 5px;
 }
-#registerLink a{
+#registerLink a, #loginLink a{
   color: #F8F8F8;
 }
 footer{
