@@ -47,4 +47,8 @@ VALUES
 	(3, 'Melinda', 21, 'Cefuroxime', '2015-03-16', '01:45:00', 'Pfizer Inc', 'PF234', '2017-01-01', 'Stearate', 'Bristol-Myers', 'BM67', '2016-04-27', 10, 'Chris', 2),
 	(4, 'Peter S', 17, 'Pabrinex', '2015-04-03', '15:20:00', 'Flamel Tech', 'F2651', '2017-06-20', 'Nacl', 'Synthon Ph', 'S7254', '2017-01-01', 17, 'Amanda', 3),
 	(5, 'Chelsea', 22, 'Furosemide', '2015-04-01', '02:15:00', 'Cardinal Health', 'C3498', '2016-04-20', 'Ampuole', 'Purdue Pharma', 'P1987', '2016-07-30', 25, 'Naina', 2),
-	(6, 'Mary S', 16, 'Tigecycline', '2015-04-04', '13:10:00', 'Impax Labs', 'IM723', '2017-01-12', 'Lactose', 'Zila Inc', 'ZI631', '2016-05-15', 10, 'Keith', 3);
+	(6, 'Mary S', 16, 'Tigecycline', '2015-04-04', '13:10:00', 'Impax Labs', 'IM723', '2017-01-12', 'Lactose', 'Zila Inc', 'ZI631', '2016-05-15', 10, 'Keith', 3);  
+	
+	
+ALTER TABLE `ivrecords`
+  ADD CONSTRAINT `ivrecords_ibfk_1` FOREIGN KEY (`userid`) REFERENCES `users` (`id`);	
